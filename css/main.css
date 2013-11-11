@@ -1,0 +1,64 @@
+
+@import url(login.css);
+@import url(header.css);
+
+@font-face
+{
+font-family: RobotoMedium;
+	src: url('../fonts/Roboto-Medium.ttf') format(truetype);
+	font-weight: normal;
+}
+
+@font-face
+{
+font-family: RobotoCondensed;
+	src: url('../fonts/RobotoCondensed-Regular.ttf') format(truetype);
+	font-weight: normal;
+}
+
+@font-face
+{
+font-family: RobotoLight;
+	src: url('../fonts/Roboto-Light.ttf') format(truetype);
+	font-weight: normal;
+}
+
+.ui-autocomplete {
+    background: #4a4a4a;
+    border-radius: 0px;
+}
+.ui-autocomplete.source:hover {
+    background: #454545;
+}
+
+
+body,
+html,
+div,
+input,
+button {
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	height:100%;
+}
+
+#main {
+	height: 100%;
+}
+
+#content {
+	margin: 0 40px;
+	font-family: RobotoMedium, Verdana;
+	color: #241c1c;
+}
+
+#content h1 {
+	font-size: 25px;
+}

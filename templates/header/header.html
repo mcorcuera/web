@@ -1,0 +1,28 @@
+<div id="header">
+	<div id="logo">
+		<img src="imgs/header-logo.png"/>
+	</div>
+	
+	<div id="search">
+		<input type="text" id="search-box" name="search" placeholder="Buscar"/>
+	</div>
+	
+	<div id="nav">
+		<div id="marker-box">
+			<div id="marker">
+			</div>
+		</div>
+		<ul>
+			<% _.each( sections, function( section) {%>
+			<li> <a href="#" <% if( section.selected == "true") { %>
+							<%= "class=selected" %>
+							<% } %> >
+			<%= section.name %> </a></li>
+			<% });%>
+		</ul>
+	</div>
+</div>
+
+<div id="content">
+
+</div>

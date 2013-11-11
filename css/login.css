@@ -1,0 +1,150 @@
+/*
+ Author: Mikel Corcuera
+ CSS for /login
+*/
+
+.middle-wrapper {
+			display:table-cell;
+			height: 100%;
+			vertical-align: middle;
+}
+		
+#login {
+	height:100%;
+	background: url( '../imgs/login-gradient.png') repeat-y white;
+}
+
+	#login #login-info {
+		display: table;
+		float: left;
+		width: 60%;
+		height:100%;
+		min-height: 100%;
+		text-align: center;
+	}
+		#login-info #info {
+			display: inline-block;
+		}
+		
+			#login-info #info p {
+				display: inline-block;
+				font-family: RobotoLight;
+				font-size: 25px;
+				width: 60%;
+				clear: both;
+			}
+			
+			#login-info #info  button {
+				outline: none;
+				margin: 20px auto;
+				clear: both;
+				display: block;
+				height: 40px;
+				border: 1px solid #483737;
+				border-radius: 3px;
+				text-align: center;
+				font-family: RobotoMedium;
+				font-size: 18px;
+				color: white;
+				background: #6c5353;
+				width: 300px;
+				text-shadow: 0px 0px 1px #000000;
+				cursor: pointer;
+			}
+				
+				#login-info #info  button:hover {
+					background: #856767;
+				}
+				
+				#login-info #info  button:active {
+					background: #6c5353;
+					
+				border: 1px solid #483737;
+				}
+				
+				#login-info #info  button:focus {
+					border: 1px solid #b19999;
+				}
+		
+	#login  #login-form {
+		display: table;
+		float: left;
+		width: 40%;
+		
+		background: url('../imgs/login-glow.png') no-repeat #241c1c;
+		height:100%;
+		box-shadow:inset 5px 0 10px #000000;
+		color: white;
+		text-align: center;
+		font-family: RobotoMedium, Helvetica;
+		
+		
+	}
+		#login-form form {
+			display: inline-block;
+			margin-left: 20px;
+			text-align: left;
+			
+		}
+			#login-form form h1 {
+				font-size: 21px;
+				width: 100%;
+				font-weight: lighter;
+				letter-spacing: 0.2px;
+				text-align: left;
+			}
+		
+			#login-form form input {
+				margin-top: 15px;
+				display: block;
+				height: 35px;
+				border: 1px solid #d45500;
+				border-radius: 3px;
+				padding-left: 10px;
+				font-family: RobotoMedium;
+				font-size: 12px;
+				background: #d4d4d4;
+				width: 230px;
+			}
+			
+			#login-form form button {
+				margin-top: 20px;
+				display: block;
+				height: 40px;
+				border: 1px solid #d45500;
+				border-radius: 3px;
+				text-align: center;
+				font-family: RobotoMedium;
+				font-size: 18px;
+				color: white;
+				background: #ff7f2a;
+				width: 230px;
+				text-shadow: 0px 0px 1px #000000;
+				cursor: pointer;
+			}
+				
+				#login-form form button:hover {
+					background: #ff934c;
+				}
+				
+				#login-form form button:active {
+					background: #ff7f2a;
+				}
+			
+			#login-form form a {
+				margin-top: 12px;
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+				font-family: RobotoLight, Verdana;
+				color: white;
+				font-weight: normal;
+				font-size: 13px;
+				text-decoration: none;
+			}
+			
+			#login-form form a:hover {
+				text-decoration: underline;
+			}
+			
+
